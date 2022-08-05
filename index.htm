@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Site || PortFolio</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/d6c0c75811.js" crossorigin="anonymous">
+     </script>
+</head>
+
+<body>
+     <div id="home">
+          <div class="container">
+               <header>
+                    <nav>
+                         <img src="images/logo.png.png" class="logo">
+                         <ul id="sideMenu">
+                              <li><a href="#home">HOME</a></li>
+                              <li><a href="#features">FEATURES</a></li>
+                              <li><a href="#resume">MY RESUME</a></li>
+                              <!-- <li><a href="#">BLOG</a></li> -->
+                              <li><a href="#contact">CONTACT</a></li>
+                              <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                         </ul>
+                         <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                    </nav>
+                    <div class="row">
+                         <div class="content">
+                              <p>Welcome To My Life</p>
+                              <h1>Hii, I'm <span> Ajay Kumar</span> <br> A Coder & A Web-Developer.</h1>
+                              <p>I Use Animations And Different Color Combinations And Fonts That Other Developers Often
+                                   Use. My Priority Is To Provide A Better Experience.</p>
+                              <div class="social-icons">
+                                   <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                   <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                                   <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                              </div>
+                         </div>
+                         <div class="image">
+
+                         </div>
+                    </div>
+               </header>
+          </div>
+     </div>
+     <div id="features">
+          <div class="container">
+               <div class="text">
+                    <p>features</p>
+                    <h1>What I Do</h1>
+               </div>
+               <div class="row">
+                    <div class="column">
+                         <div class="data">
+                              <i class="fa-solid fa-bars "></i>
+                              <h2>Business</h2>
+                              <p>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
+                              <i class="fa-solid fa-arrow-right icon"></i>
+                         </div>
+                    </div>
+                    <div class="column ">
+                         <div class="data text-02">
+                              <i class="fa-solid fa-book-open"></i>
+                              <h2>Web Developement</h2>
+                              <p>It uses a dictionary of over 200 Latin words, combined with a handful of model
+                                   sentence.</p>
+                              <i class="fa-solid fa-arrow-right icon"></i>
+                         </div>
+                    </div>
+                    <div class="column">
+                         <div class="data">
+                              <i class="fa-solid fa-tv"></i>
+                              <h2>UI Design</h2>
+                              <p>I throw myself down among the tall grass by the stream as I lie close to the earth.</p>
+                              <i class="fa-solid fa-arrow-right icon"></i>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div id="resume">
+          <div class="container">
+               <div class="text">
+                    <p>A Little Experience</p>
+                    <h1>My resume</h1>
+               </div>
+               <div class="title-bar">
+                    <div class="row">
+                         <div class="column4">
+                              <h3>Skills</h3>
+                              <p>I Can Design A Webpage In various Designs With React js, Bootstrap, Tailwind css And
+                                   With Vanila Css.</p>
+                         </div>
+                         <div class="column4">
+                              <h3>Education</h3>
+                              <p>I Have My Graduation Degree But According to my passion I Learned All Web Developement
+                                   Skills And Become A Coder</p>
+                         </div>
+                         <div class="column4">
+                              <h3>Experience</h3>
+                              <p>I Have Not That Much experience But Can Work At My Best. I'm Still Learning How to
+                                   Improve My Works.</p>
+                         </div>
+                         <div class="column4">
+                              <h3>Projects</h3>
+                              <p>You Can Visit To My Github Page To See My Various Projects. Some Are Inspired And Rest
+                                   My own.</p><br>
+                              <a href="#" class="btn">My github Profile</a>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </div>
+     <div id="contact">
+          <div class="container">
+               <div class="text">
+                    <h1>Contact Me</h1>
+               </div>
+               <div class="row">
+                    <div class="col-02">
+                         <h1>Fill The Form Any Quory.</h1>
+                    </div>
+                    <div class="col-02">
+                         <form action="" name="submit-to-google-sheet">
+                              <input type="text" name="Name" placeholder="your name" required>
+                              <input type="email" name="email" placeholder="your e-mail" required>
+                              <textarea name="message" cols="20" rows="6" placeholder="your message"></textarea>
+                              <button type="submit" class="btn btn2">Submit</button>
+                         </form>
+                         <span id="msg"></span>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <footer>
+          <div class="container">
+               <hr>
+               <img src="images/logo.png.png" class="ft-img">
+               <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+               </div>
+               <p class="copyright">Copyright @Ajaykumar, 2022</p>
+          </div>
+     </footer>
+     <script>
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbwlgeJaeEnm5sOKRmMpwSA2IIJnlM6hJl_tq3GOkqIaxFlq9cY_jpAcnu_v2yF4pn0PDQ/exec'
+          const form = document.forms['submit-to-google-sheet']
+          const msg = document.getElementById("msg");
+
+          form.addEventListener('submit', e => {
+               e.preventDefault()
+               fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                         msg.innerHTML = "you have successfully submitted"
+                         setTimeout(function () {
+                              msg.innerHTML = ""
+                         }, 5000)
+                         form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+          })
+     </script>
+     <script>
+          var sidemenu = document.getElementById("sideMenu");
+
+          function openMenu() {
+               sidemenu.style.right = "0";
+          }
+          function hideMenu() {
+               sidemenu.style.right = "-200px";
+          }
+     </script>
+</body>
+
+</html>
